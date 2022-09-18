@@ -7,8 +7,7 @@
 Console.Clear();
 Console.Write("Введите целое число1: ");
 int num = Convert.ToInt32(Console.ReadLine());
-int count = -num;
- Console.Write($"Целые числа в промежутке от {-num} до {num}: "); 
+int count = -num; 
 while (count<=num) 
 {
    Console.Write($"{count}, ");
