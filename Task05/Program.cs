@@ -6,10 +6,11 @@
 //  2 -> " -2, -1, 0, 1, 2"
 Console.Clear();
 Console.Write("Введите целое число1: ");
-int num1 = Convert.ToInt32(Console.ReadLine());
-int count = -num1;
-while (count<=num1) 
+int num = Convert.ToInt32(Console.ReadLine());
+int count = -num;
+ Console.Write($"Целые числа в промежутке от {-num} до {num}: "); 
+while (count<=num) 
 {
-    Console.Write($"{count}, "); 
-    count ++ ;
+   Console.Write($"{count}, ");
+   count ++ ;
 }
